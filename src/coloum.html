@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-amber-500">
+      <div class="container mx-auto flex items-center [&>*]:p-5">
+        <h1 class="text-xl font-bold mr-auto">Tehzeeb</h1>
+
+        <nav>
+          <ul class="flex gap-6">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">About</a></li>
+            <li><a href="#" class="hover:underline">Services</a></li>
+            <li><a href="#" class="hover:underline">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center bg-white">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-4">Welcome to Tailwind CSS</h2>
+        <p class="text-gray-600 max-w-xl mb-6">
+          Ye simple home page Tailwind CSS ka use karke banaya gaya hai jisme
+          koi image use nahi ki gayi.
+        </p>
+
+        <button
+          class="bg-amber-500 text-white px-6 py-3 rounded hover:bg-amber-600"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-gray-100 py-16">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Fast</h3>
+          <p>Tailwind fast development ke liye best hai.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Responsive</h3>
+          <p>Har screen size pe perfect layout.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Customizable</h3>
+          <p>Classes ke zariye full control.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+      <div class="container mx-auto text-center p-6">
+        © 2025 Tehzeeb | All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>
